@@ -1,0 +1,1 @@
+from fynance import fynance
