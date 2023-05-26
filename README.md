@@ -1,11 +1,11 @@
 # fynance
 
-Um pacote para desenvolvimento web de um app de finanças
+Um repositório para desenvolvimento web de um app de finanças
 
-## Installation
+## Link
 
-```bash
-$ pip install fynance
+```
+
 ```
 
 ## Usage
