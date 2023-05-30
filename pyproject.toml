@@ -7,7 +7,10 @@ license = "GNU General Public License v3.0"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.9.16"
+streamlit = "^1.22.0"
+yfinance = "^0.2.18"
+plotly = "^5.14.1"
 
 [tool.poetry.dev-dependencies]
 
