@@ -1,10 +1,10 @@
 import streamlit as st
-
+## Configuração das paginas
 st.set_page_config(
     page_title="Fynance",
     page_icon="📈"
 )
-
+##criacao das pastas e download de arquivos
 import fynance
 from fynance import situacao
 
