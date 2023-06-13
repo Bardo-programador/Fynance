@@ -9,3 +9,7 @@
 ## v0.1.1 (29/05/2023)
 
 - Multipages implementation
+
+## v0.1.2(12/06/2023)
+
+- MACD indicator added 
