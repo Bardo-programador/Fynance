@@ -33,16 +33,20 @@ def gerarMACD(df, tempo):
     fig.add_trace(go.Bar(
         x=datas,
         y=df['MACD'],
+        name= None,
         marker=dict(color='green'),
-        opacity=0.7
+        opacity=0.7,
+        showlegend=False
     ))
 
     # Adição das barras negativas
     fig.add_trace(go.Bar(
         x=datas,
         y=df['MACD'].where(df['MACD'] < 0, 0),
+        name= None,
         marker=dict(color='red'),
-        opacity=0.7
+        opacity=0.7,
+        showlegend=False
     ))
 
     # Adição da linha de sinal
