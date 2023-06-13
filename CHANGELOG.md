@@ -13,3 +13,4 @@
 ## v0.1.2(12/06/2023)
 
 - MACD indicator added 
+- MACD Legends has been removed
