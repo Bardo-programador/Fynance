@@ -3,7 +3,7 @@ import plotting
 import pandas as pd
 import streamlit as st
 from datetime import time
-tickers =['FNF', 'ASML', 'GOOGL', 'AAPL'] ##Lista de tickersit
+tickers =['FNF', 'ASML', 'GOOGL', 'AAPL'] ##Lista de tickers
 
 selectbox = st.sidebar.selectbox("Escolha um ticker",
                                  (tickers))  
