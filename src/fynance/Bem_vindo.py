@@ -4,8 +4,6 @@ st.set_page_config(
     page_title="Fynance",
     page_icon="📈"
 )
-##criacao das pastas e download de arquivos
-
 
 if True:
     st.sidebar.success("Tudo certo")
