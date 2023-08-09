@@ -5,10 +5,9 @@ st.set_page_config(
     page_icon="📈"
 )
 ##criacao das pastas e download de arquivos
-import fynance
-from fynance import situacao
 
-if situacao == True:
+
+if True:
     st.sidebar.success("Tudo certo")
 else:
     st.sidebar.error("Ao está errado")
