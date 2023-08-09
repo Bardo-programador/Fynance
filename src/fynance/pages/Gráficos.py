@@ -1,5 +1,5 @@
 import yfinance as yf
-import plotting
+import fynance.plotting as plotting
 import pandas as pd
 import streamlit as st
 from datetime import time
